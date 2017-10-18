@@ -1,0 +1,185 @@
+[ 2017-10-09T09:51:12+08:00 ] 127.0.0.1 /power/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-10-09T10:02:45+08:00 ] 127.0.0.1 /power/
+ERR: 模板不存在:/var/www/html/power/Home/View/Index/index.html
+
+[ 2017-10-09T10:03:11+08:00 ] 127.0.0.1 /power/
+ERR: 模板不存在:/var/www/html/power/Home/View/Index/index.html
+
+[ 2017-10-09T10:06:18+08:00 ] 127.0.0.1 /power/
+ERR: 模板不存在:/var/www/html/power/Home/View/layout.html
+
+[ 2017-10-09T10:09:54+08:00 ] 127.0.0.1 /power/index.php/Home/Teacher/index.html
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-09T11:00:46+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:05:32+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:06:10+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:07:17+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:07:36+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:08:12+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\Pub\GatewayClient\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:08:32+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\Pub\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:09:06+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\Home\Pub\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:09:30+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\Home\Pub\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:09:51+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:10:34+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:10:57+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:11:03+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:17:28+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:17:30+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:17:31+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:17:32+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:17:32+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:20:57+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:20:58+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:20:58+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:21:53+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:21:54+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:26:32+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:26:33+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:33:34+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:33:35+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:40:45+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:40:48+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:41:36+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:41:37+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:41:39+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:42:38+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:44:28+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:44:52+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:47:08+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:47:09+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:47:09+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'GatewayClient\Gateway' not found
+
+[ 2017-10-09T11:51:31+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'test' not found
+
+[ 2017-10-09T11:54:46+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Gateway' not found
+
+[ 2017-10-09T11:55:28+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'GatewayClient' not found
+
+[ 2017-10-09T11:55:38+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient' not found
+
+[ 2017-10-09T11:58:39+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'GatewayWorker\Gateway' not found
+
+[ 2017-10-09T12:01:59+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\test2' not found
+
+[ 2017-10-09T12:02:36+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\test2' not found
+
+[ 2017-10-09T12:03:22+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'test2' not found
+
+[ 2017-10-09T12:04:30+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'GatewayClient\Exception' not found
+
+[ 2017-10-09T12:04:32+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'GatewayClient\Exception' not found
+
+[ 2017-10-09T12:05:37+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Can not connect to tcp://127.0.0.1:1236 Connection refused
+
+[ 2017-10-09T12:06:38+08:00 ] 127.0.0.1 /power/index.php/Home/Index/index.html
+ERR: Class 'Home\Controller\GatewayClient\Gateway' not found
+
+[ 2017-10-09T17:05:38+08:00 ] 127.0.0.1 /power/
+ERR: Can not connect to tcp://127.0.0.1:1238 Connection refused
+
